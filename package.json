@@ -1,0 +1,22 @@
+{
+  "name": "universe-serverv2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc && node ."
+  },
+  "author": "Media",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/socket.io": "^3.0.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.11.2",
+    "ammojs-typed": "^1.0.6",
+    "axios": "^1.3.5",
+    "socket.io": "^4.6.1"
+  }
+}
